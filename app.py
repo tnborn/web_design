@@ -9,8 +9,8 @@ app: Flask = Flask(__name__)
 def main():
     return render_template('main.html')
 
-@app.route("/posts")
-def posts():
+@app.route("/about_us")
+def about_us():
 
     return 
 
